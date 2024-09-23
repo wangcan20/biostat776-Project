@@ -214,7 +214,7 @@ updated_merged_10_cleaned
 ### 4. Make a set of violin plots with ratings on the y-axis and continents on the x-axis.
 ```{r}
 ggplot(updated_merged_10_cleaned, aes(x = continent, y = rating)) +
-  geom_violin(trim = FALSE,fill="skyblue") + 
+  geom_violin(fill="skyblue") + 
   labs(title = "Distribution of Ratings by Continent",
        x = "Continent",
        y = "Rating") +
