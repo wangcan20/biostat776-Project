@@ -1,6 +1,6 @@
 ---
-title: "Project2"
-author: '2020010527'
+title: "Biostat776_Project_2"
+author: 'Can Wang'
 date: "2024-09-23"
 output: html_document
 ---
